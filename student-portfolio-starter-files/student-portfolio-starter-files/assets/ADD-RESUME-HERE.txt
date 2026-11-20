@@ -1,0 +1,2 @@
+Export your résumé as a PDF, name it student-resume.pdf, and place it in this folder.
+file:///C:/Users/tyler/Downloads/student-portfolio-starter-files/student-portfolio-starter-files/assets/Tyler_Becker_Resume.pdf

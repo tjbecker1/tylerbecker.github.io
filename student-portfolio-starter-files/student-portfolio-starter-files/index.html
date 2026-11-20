@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Student developer portfolio">
+    <title>Student Name | Developer Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container nav-wrapper">
+            <a class="site-title" href="#home">Student Name</a>
+            <nav aria-label="Main navigation">
+                <ul class="nav-list">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="container hero-content">
+                <div>
+                    <p class="eyebrow">Student Developer Portfolio</p>
+                    <h1>Hello, I’m <span>Tyler Becker</span>.</h1>
+                    <p class="hero-text">
+                        I’m an aspiring game developer who enjoys building racing games and multiplayer shooters. In my C++ stock car racing game, my favorite part was making pit stops a real decision for the player. Next, I want to build on that experience in Unreal Engine as my cousin and I work toward releasing a game together.
+                    </p>
+                    <div class="button-row">
+                        <a class="button primary" href="#projects">View My Projects</a>
+                        <a class="button secondary" href="file:///C:/Users/tyler/Downloads/student-portfolio-starter-files/student-portfolio-starter-files/assets/Tyler_Becker_Resume.pdf
+" target="_blank" rel="noopener">View Résumé</a>
+                    </div>
+                </div>
+
+                <img class="profile-image" src="C:\Users\tyler\Downloads\student-portfolio-starter-files\student-portfolio-starter-files\images\propicedit.png" alt="Placeholder profile illustration">
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <div class="container narrow">
+                <p class="section-label">About Me</p>
+                <h2>Who I Am as a Developer</h2>
+                <p>
+                    My interest in programming grew from wanting to make the kinds of games I enjoy playing. When I started my C++ stock car racing game, I could use loops and functions to run a five-lap race. Adding pit stops gave me the kind of problem I enjoy solving. When a pit stop made a single lap look like it took over a minute, I traced the calculation and found that I was displaying the total race time. Fixing that bug taught me to follow a value through my code and test one change at a time. I’m now more confident using classes to organize a game and breaking a new feature into smaller pieces I can build and test.
+                </p>
+
+                <div class="skills-grid">
+                    <article class="info-card">
+                        <h3>Languages</h3>
+                        <p>C++, HTML, CSS</p>
+                    </article>
+
+                    <article class="info-card">
+                        <h3>Tools</h3>
+                        <p>Visual Studio, Git, GitHub</p>
+                    </article>
+
+                    <article class="info-card">
+                        <h3>Current Focus</h3>
+                        <p>Object-oriented programming, debugging, and clean code</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section alternate-background">
+            <div class="container">
+                <p class="section-label">Featured Work</p>
+                <h2>Projects</h2>
+                <p class="section-intro">
+                    Replace the sample information below with your own work. Add screenshots, explain what each project does, and describe your development process.
+                </p>
+
+                <div class="project-grid">
+                    <article class="project-card">
+                        <img src="C:\Users\tyler\Downloads\student-portfolio-starter-files\student-portfolio-starter-files\images\CSR SS.png" alt="Placeholder screenshot for Project One">
+                        <div class="project-content">
+                            <p class="project-type">C++ Console Application</p>
+                            <h3>Console Stock Car Racing</h3>
+                            <p>
+                                Console Stock Car Racing is a C++ game where players make pit strategy decisions during a five lap race against three AI drivers. Players enter their name, choose a car number, and check their lap times, fuel, tire condition, and position after each lap. Between laps, they can stay on track with worn tires or spend 15 seconds in the pits for fuel and fresh tires. The driver with the lowest total race time wins.
+                            </p>
+
+                            <h4>Key Features</h4>
+                            <ul>
+                                <li>One major feature is the pit stop system. Between laps, players can check their fuel level and tire condition, then choose whether to stay on track or pit. A pit stop refills the tank and restores the tires, but it adds 15 seconds to the player’s race time. Since worn tires slow each lap, players have to decide whether fresh tires are worth the time lost in the pits.</li>
+                                <li>Another major feature is the AI opponent system. Each race includes three opponents with randomly selected names and unique car numbers. Their lap times vary, and each opponent makes one pit stop on a randomly assigned lap. Players can see how those stops affect their position in the standings after each lap.</li>
+                                <li>I built a menu that lets players start a race, read about the game, or exit. The game checks that the driver’s name isn’t blank and that the car number is a whole number from 1 to 99. If a player enters 12abc or 100, the game explains what to fix and prompts them again.</li>
+                            </ul>
+
+                            <h4>What I Learned</h4>
+                            <p>
+                                One challenge I faced was figuring out why a pit stop made a single lap appear to take over a minute. I traced the timing calculation and found that the lap summary was displaying the driver’s total race time. I fixed it by tracking the current lap separately and showing the driving time, the 15 second pit penalty, and the overall race time. I learned to check which value my code is displaying before changing the calculation itself.
+                            </p>
+
+                            <div class="project-links">
+                                <a class="text-link" href="https://github.com/tjbecker1/TB-COS.git" target="_blank" rel="noopener">View Repository</a>
+                                <a class="text-link" href="https://example.com" target="_blank" rel="noopener">Watch Demo</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <img src="images/project-placeholder.svg" alt="Placeholder screenshot for Project Two">
+                        <div class="project-content">
+                            <p class="project-type">Additional Project</p>
+                            <h3>Project Two Title</h3>
+                            <p>
+                                Duplicate this card when you are ready to add more work. Replace all placeholder text, links, and images before submitting.
+                            </p>
+
+                            <h4>Key Features</h4>
+                            <ul>
+                                <li>Describe one major feature.</li>
+                                <li>Describe another major feature.</li>
+                                <li>Describe a technical improvement.</li>
+                            </ul>
+
+                            <h4>What I Learned</h4>
+                            <p>
+                                Explain how this project demonstrates your growth as a developer.
+                            </p>
+
+                            <div class="project-links">
+                                <a class="text-link" href="https://github.com/USERNAME/REPOSITORY" target="_blank" rel="noopener">View Repository</a>
+                                <a class="text-link" href="https://example.com" target="_blank" rel="noopener">Watch Demo</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="container narrow contact-section">
+                <p class="section-label">Contact</p>
+                <h2>Let’s Connect</h2>
+                <p>
+                    Github.com/tjbecker1
+                </p>
+
+                <div class="contact-links">
+                    <a class="button primary" href="https://github.com/tjbecker1" target="_blank" rel="noopener">GitHub</a>
+                    <a class="button secondary" href="https://www.linkedin.com/in/USERNAME" target="_blank" rel="noopener">LinkedIn</a>
+                    <a class="button secondary" href="mailto:tyler.j.becker8@gmail.com">Professional Email</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2026 Tyler J Becker. Built with HTML, CSS, GitHub, and GitHub Pages.</p>
+        </div>
+    </footer>
+</body>
+</html>
